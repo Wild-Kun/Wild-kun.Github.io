@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>个人主页网站</title>
+    <!-- CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/blog.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="blog-masthead">
+      <div class="container">
+        <nav class="blog-nav">
+          <a class="blog-nav-item active" href="index.html">首页</a>
+          <a class="blog-nav-item" href="#part1">生活</a>
+          <a class="blog-nav-item" href="#part2">前行</a>
+          <a class="blog-nav-item" href="#part3">技术</a>
+        </nav>
+      </div>
+    </div>
+	<div class="intr banner">
+    
+        <span class="avtar"></span>
+        <div class="banner-2">
+          <p class="peointr text">我是王坤，一名软件技术专业大三的学生。</p>
+          <p class="peointr text">热爱生活，努力前行，技术偏执。</p>
+    </div>
+    	
+    </div>
+    <div class="title" id="part1" style="color: #3B3B3B;">热爱生活</div>
+    <div class="content" style="height: 100px; border-radius: 5px;">
+    	<div class="image-card">
+    		<img src="image/h1.jpg" alt="">
+    		<div><p>家乡-笔锋塔下</p></div>
+    	</div>
+    	<div class="image-card">
+    		<img src="image/h2.jpg" alt="">
+    		<div><p>家乡-襄河河畔</p></div>
+    	</div>
+    	<div class="image-card">
+    		<img src="image/h3.jpg" alt="">
+    		<div><p>家乡-太平桥岸</p></div>
+    	</div>
+    </div>
+    <div class="title" id="part2" style="color: #3B3B3B;">努力前行</div>
+    <div class="content" style="height:400PX;">
+    	<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+			
+              <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner" role="listbox" style="height:450PX;">
+                <div class="item active">
+                  <img src="image/001.jpg" alt="..." style="height:450PX;">
+                </div>
+                <div class="item">
+                  <img src="image/002.jpg" alt="..." style="height:450PX;">
+                </div>
+				<div class="item">
+                  <img src="image/003.jpg" alt="..." style="height:450PX;">
+                </div>
+              </div>
+              <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+    </div>
+	<div class="title" id="part3" style="color: #3B3B3B;">技术偏执</div>
+    <div class="content">
+        <ul class="nav nav-tabs" role="tablist">
+          <li class="active"><a href="#home" role="tab" data-toggle="tab">Web前端</a></li>
+          <li><a href="#profile" role="tab" data-toggle="tab">PHP</a></li>
+        </ul>
+        <div class="tab-content">
+          <div class="tab-pane active" id="home">
+          	<p class="text" style="color: #3B3B3B;">今后的职业规划是朝着全栈发展，目前在学Thinkphp、AnjularJs。 希望在实习期内，能够提高整个页面的前端开发的水平，配合后台人员实现产品前端界面效果与功能。写过响应式页面，移动端页面，pc端页面。小的来说，商城，企业网站，视频，音频，评论，地图等都有涉及。</p>
+            <p class="text" style="color: #3B3B3B;">不浮躁，喜欢前端，执行力，学习能力都棒棒哒！目前，能做点粗糙设计（比如本网站）</p>
+          </div>
+          <div class="tab-pane" id="profile">
+          	<p class="text" style="color: #3B3B3B;">作为一个最初掌握的技术</p>
+            <p class="text" style="color: #3B3B3B;">在很长的一段时间  我都用它来开发web,开发应用程序</p>
+            <p class="text" style="color: #3B3B3B;">愿今后可以继续研究它</p>
+          </div>
+        </div>
+    </div>
+    <div class="blog-footer">
+      <p>By 王坤 wk1941483751@gmail.com</p>
+    </div>
+    <input type="button" value="回到顶部" id="mybtn">
+    <!-- Js-->
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/plugin.js"></script>
+  </body>
+</html>
